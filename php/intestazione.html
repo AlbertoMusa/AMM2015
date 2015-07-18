@@ -1,0 +1,58 @@
+		<div id="intestazione">
+		
+			<div id="area_alta">
+			</div>
+			
+			<div id="area_logo">
+				<div id="spazio_logo">
+				<div style="color:#FF6600;">
+				<img src="../images/scritta2.png" height="200px" alt="Agenzia Formativa ERCF logo">
+				<img src="../images/scritta.png" height="200px" alt="Agenzia Formativa ERCF scritta">
+				</div>
+				</div>
+			</div>
+			
+			<div id="area_media">
+			</div>
+			
+			<div id="area_scelta">
+				<div id="spazio_scelta">
+					<div id="ricerca">
+						<form method="GET" action="ricerca.php">
+						<img src="../images/icona ricerca.jpg">
+						<input type=text name="key" maxlength="20">
+						<input type=submit value="cerca">
+						</form>
+					</div>
+					<div id="menu_alto">
+										
+						<ul>
+						<li><a href="index.php">HOME PAGE</a></li>	  
+						<li><a href="chi siamo.php">CHI SIAMO</a></li>
+						<li><a href="dove siamo.php">DOVE SIAMO</a></li>
+						<li><a href="lavora con noi.php">LAVORA CON NOI</a></li>
+						<li><a href="contatti.php">CONTATTI</a></li>
+						
+<?php
+						
+			      if(IsSet($_SESSION['User']))
+				 {
+						echo"<li><a href='logout.php'>LOGOUT</a></li>";	
+				 }	 
+				 else 
+				 {
+						echo"<li><a href='login.php'>AREA RISERVATA</a></li>";					 
+		         }			
+?>						
+						<a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.png" width="50" height="50"><a/>
+						<a href="https://twitter.com/" target="_blank"><img src="../images/twitter.png" width="50" height="50"></a>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+			
+			<div id="area_bassa">
+			</div>
+			
+		</div>

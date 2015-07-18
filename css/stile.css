@@ -1,0 +1,292 @@
+body{
+background: #CCC url(../images/sfondo29.jpg)top center fixed ;
+background-repeat:repeat;
+margin:0px;
+text-align:center;
+font-family:georgia;
+font-size:12px;
+}
+/* TITOLO */
+#intestazione{
+border-top:1px solid white;
+margin-top:10px;
+background: #CCC url(../images/sfondo21.jpg) no-repeat top center ;
+background-size: cover;  
+width:100%;
+}
+
+#area_alta{
+height:0px;
+width:100%;
+}
+
+#area_logo{
+width:100%;
+
+}
+#spazio_logo{
+width:1024px;
+margin:0px auto;
+border-radius:0px 0px 20px 20px;
+line-height:60px;
+
+}
+
+#area_media{
+width:100%;
+}
+
+#area_scelta{
+background:#151B8D;
+border-top:2px solid white;
+width:100%;
+height:50px;
+}
+#spazio_scelta{
+margin:0px auto;
+width:1024px;
+overflow: hidden;
+}
+#ricerca{
+float:left;
+padding:10px 0px 10px 10px;
+}
+#ricerca form{
+overflow: hidden;
+background:white;
+border:3px solid white;
+margin:0px auto;
+padding:2px;
+border-radius:5px;
+}
+#ricerca input{
+height:20px;
+float:left;
+border:1px solid white;
+}
+#ricerca img{
+width:20px; 
+height:20px;
+float:left;
+}
+#menu_alto ul {
+float:right;
+padding:0px;
+overflow: hidden;
+list-style-type:none;
+margin:0px auto;
+}
+#menu_alto ul li{
+float:left;
+margin:0px auto;
+}
+#menu_alto ul li a{
+margin:5px 16px 0px 0px;
+display: block;
+text-decoration:none;
+height:50px;
+border-radius:20px 20px 0px 0px;
+padding:10px 5px 0px 5px;
+color:white;
+}
+#menu_alto ul li a:hover{
+background:#FFFFFF;
+color:black;
+}
+
+#area_bassa{
+width:100%;
+}
+
+/*CONTENUTO*/
+#base{
+text-align:left;
+padding:0px 0px 5px 0px;
+overflow:hidden;
+margin:10px auto;
+width:1024px;
+background:#FFFFFF;
+min-height:900px;
+height:expression(document.body.clientWidth < 900? "900px": "auto" );
+}
+
+/*CONTENUTO/MENU*/
+#menu{
+float:left;
+width:240px;
+text-align:right;
+}
+#menu ul {
+list-style-type:none;
+padding:0px;
+width:220px;
+margin:0px 0px 0px 10px;
+}
+#menu ul li a{
+padding:10px 15px 0px 0px;
+background:#FF6600;
+border:2px outset orange;
+margin:5px 0px 0px 0px;
+height:30px;
+display: block;
+text-decoration:none;
+border-radius:5px;
+color:black;
+}
+#menu li ul li a{
+background:#FF7600;
+padding:10px 15px 0px 0px;
+width:180px;
+margin:5px 0px 0px 10px;
+height:20px;
+color:black;
+}
+#menu ul li a:hover{
+border:2px inset orange;
+}
+/*CONTENUTO/DATI*/
+#base_contenuto{
+overflow:hidden;
+}
+#titolo{
+border:2px outset orange;
+background:#FF6600;
+font-size:15px;
+text-align:center;
+margin:5px auto;
+padding:10px 0px 10px 0px;
+border-radius:5px;
+color:black;
+}
+
+#ultimi_corsi{
+overflow:hidden;
+margin:0px 5px 5px 5px auto;
+width:775px;
+float:left;
+}
+#ultimo_corso{
+color:black;
+padding:7px;
+border:2px solid orange;
+border-radius:5px;
+margin:5px;
+width:230px;
+float:left;
+overflow:hidden;
+text-align:left;
+}
+#img_ultimo_corso{
+width:120px;
+height:120px;
+float:left;
+margin-right:5px;
+}
+/*CONTENUTO/CONTENUTO/DATI*/
+#info{
+width:770px; /**/ 
+float:left;
+}
+#text_info{
+font-size:14px;
+padding:0px 20px 0px 20px;
+text-align:justify;
+}
+
+	/*CONTENUTO/CONTENUTO/DATI-SX*/
+#contenuto{
+width:770px;
+overflow:hidden;
+border:0px solid orange;
+}
+#img_contenuto{
+border-radius:5px;
+border:2px solid orange;
+width:280;
+float:left;
+margin:8px;
+color:black;
+}
+#text_contenuto{
+text-align:center;
+padding:10px;
+min-height:80px;
+height:expression(document.body.clientWidth < 80? "80px": "auto" );
+}
+#corso{
+padding:5px;
+margin:5px 0px 5px 5px;
+width:740px;
+border-bottom:2px solid orange;
+overflow:hidden;
+}
+#img_corso{
+float:left;
+margin:5px 10px 2px 0px;
+}
+#desc{
+margin-top:10px;
+}
+#desc #csx
+{
+border-top:2px solid orange;
+}
+#desc #cdx
+{
+border-left:2px solid orange;
+border-top:2px solid orange;
+text-align:justify;
+padding:10px;
+min-width:450px;
+height:expression(document.body.clientWidth < 450? "450px": "auto" );
+}
+#desc img
+{
+margin:0px 5px 5px 0px;
+float:left;
+}
+
+	/*AREA RISERVATA*/
+#rdx{
+width:80px;
+padding:5px;
+}
+#car{
+width:450px;
+}
+
+/*FONDO*/
+#area_fondo{
+width:100%;
+background:#151B8D;
+}
+#spazio_fondo{
+width:1024px;
+padding:10px 0px 10px 0px;
+margin:0 auto;
+}
+
+/*SEDI*/
+.sedi{
+list-style: none;
+height: 30px;
+margin: 5px;
+}
+
+.sedi:hover{
+color:orange;
+}
+
+#sede{
+float:left;
+width:300px;
+border-right:2px solid orange;
+margin:10px 0px 5px 0px;
+}
+
+#text_sede{
+float:left;
+width:450px;
+text-align:center;
+padding-top:30px;
+}
