@@ -3,7 +3,7 @@
 				<li class="menu"><a>Sedi Attive</a>
 					<ul class="submenu" id="submenu-1">
 <?php
-						$Connessione=mysql_connect("localhost","root","davide");
+						$Connessione=mysql_connect("localhost","musaAlberto","stambecco7280");
 						$DataBase=mysql_select_DB("amm15_musaAlberto");
 						$Query="SELECT Citta FROM Sede ORDER BY Citta;";
 						$ExQuery=mysql_query($Query);
