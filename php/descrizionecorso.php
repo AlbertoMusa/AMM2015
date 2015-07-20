@@ -15,7 +15,7 @@ session_start();
 			<div id="info">
 				<div id="contenuto">		
 <?php
-						$Connessione=mysql_connect("localhost","root","davide");
+						$Connessione=mysql_connect("localhost","musaAlberto","stambecco7280");
 						$DataBase=mysql_select_DB("amm15_musaAlberto");
 						$Q=$_GET['CodS'];
 						$Query="SELECT C.Titolo,C.Tipo,C.Obiettivi,C.Programma,C.Svolgimento,C.Titoli,C.Iscrizione,C.Destinatari,C.Data,C.Orari,C.Costo
