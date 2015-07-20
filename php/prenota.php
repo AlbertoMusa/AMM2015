@@ -19,7 +19,7 @@ session_start();
 			   
 			      if(IsSet($_SESSION['User']))
 				 {						
-					$Connessione=mysql_connect("localhost","root","davide");
+					$Connessione=mysql_connect("localhost","musaAlberto","stambecco7280");
 					$DataBase=mysql_select_DB("amm15_musaAlberto");
 					$Q=$_GET['Op'];
 					$app=$_SESSION['User'];
