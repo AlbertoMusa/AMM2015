@@ -1,7 +1,3 @@
-drop database Ercf;
-create database Ercf;
-use Ercf;
-
 create table Corso
 (
   Cod	int not null AUTO_INCREMENT, 

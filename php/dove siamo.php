@@ -32,7 +32,7 @@ session_start();
 <?php		
 						echo "<div id='titolo'>Le Sedi</div>";
 						$Connessione=mysql_connect("localhost","root","davide");
-						$DataBase=mysql_select_DB("Ercf");
+						$DataBase=mysql_select_DB("amm15_musaAlberto");
 						$Query="SELECT ID, Citta FROM Sede ORDER BY Citta;";
 						$ExQuery=mysql_query($Query);
 						echo "<div  id='sede'><ul>";

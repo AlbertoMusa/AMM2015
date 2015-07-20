@@ -16,7 +16,7 @@ session_start();
 				<div id="contenuto">		
 <?php
 						$Connessione=mysql_connect("localhost","root","davide");
-						$DataBase=mysql_select_DB("Ercf");
+						$DataBase=mysql_select_DB("amm15_musaAlberto");
 						$Query="SELECT C.Cod,C.Titolo,C.Anteprima,C.Tipo,C.DataF
 								FROM Corso as C
 								WHERE C.DataF<=current_date()

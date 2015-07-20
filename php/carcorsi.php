@@ -24,7 +24,7 @@ session_start();
 						echo"</tr><tr>";
 						echo"<td id='rdx'><b>Sedi:</b></td><td>";
 						$Connessione=mysql_connect("localhost","root","davide");
-						$DataBase=mysql_select_DB("Ercf");
+						$DataBase=mysql_select_DB("amm15_musaAlberto");
 						$Query="select ID,Citta from Sede ORDER BY Citta;";
 						$ExQuery=mysql_query($Query);
 						for ($i=0;$i<mysql_num_rows($ExQuery);$i++)

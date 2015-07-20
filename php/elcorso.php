@@ -19,7 +19,7 @@ session_start();
 			      if(IsSet($_SESSION['User']))
 				 {						
 					$Connessione=mysql_connect("localhost","root","davide");
-					$DataBase=mysql_select_DB("Ercf");
+					$DataBase=mysql_select_DB("amm15_musaAlberto");
 					$Query="SELECT Cod FROM Corso WHERE Cod='".$_POST['Cod2']."';";
 					$ExQuery=mysql_query($Query);
 					if((($_POST['Cod1'])==($_POST['Cod2']))&&(isset($_POST['Cod1']))&&(isset($_POST['Cod2']))&&(mysql_num_rows($ExQuery)>0))

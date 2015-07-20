@@ -19,7 +19,7 @@ session_start();
 			      if(IsSet($_SESSION['User']))
 				 {						
 					$Connessione=mysql_connect("localhost","root","davide");
-					$DataBase=mysql_select_DB("Ercf");
+					$DataBase=mysql_select_DB("amm15_musaAlberto");
 					if(($_POST['Titolo'])&&($_POST['Tipo'])&&($_POST['Data'])&&($_POST['DataF'])&&($_POST['Anteprima'])&&($_POST['Programma']))
 					{
 					$Query="insert into Corso values(''

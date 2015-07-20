@@ -9,7 +9,7 @@
 			 else
 			 {  			
 				 $connessione=mysql_connect("localhost","root","davide");
-				 mysql_select_DB("Ercf");
+				 mysql_select_DB("amm15_musaAlberto");
 				 $Query="SELECT Nome, Priorita FROM Utente  WHERE Nome='$user' AND Password='$pass';";
 				 $ExQuery=mysql_query($Query);
 				 $Data=mysql_fetch_array($ExQuery);

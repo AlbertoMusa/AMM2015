@@ -19,7 +19,7 @@ session_start();
 			</div>
 			<?php
 				$Connessione=mysql_connect("localhost","root","davide");
-				$DataBase=mysql_select_DB("Ercf");
+				$DataBase=mysql_select_DB("amm15_musaAlberto");
 				$Query="SELECT C.Cod,C.Titolo,C.Data,C.DataF,S.Citta
 						FROM Corso as C,Abilita as A, Sede as S
 						WHERE C.Cod=A.Cod AND A.ID=S.ID

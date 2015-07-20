@@ -4,7 +4,7 @@
 					<ul class="submenu" id="submenu-1">
 <?php
 						$Connessione=mysql_connect("localhost","root","davide");
-						$DataBase=mysql_select_DB("Ercf");
+						$DataBase=mysql_select_DB("amm15_musaAlberto");
 						$Query="SELECT Citta FROM Sede ORDER BY Citta;";
 						$ExQuery=mysql_query($Query);
 						for ($i=0;$i<mysql_num_rows($ExQuery);$i++)

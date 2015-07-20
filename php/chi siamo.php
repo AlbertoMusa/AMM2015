@@ -17,7 +17,7 @@ session_start();
 					Chi Siamo
 					</div>
 					<div id="text_info">
-					<p>L’E.R.C.F. accreditata presso la Regione Autonoma della Sardegna nasce per svolgere attività
+					<p>L'E.R.C.F. accreditata presso la Regione Autonoma della Sardegna nasce per svolgere attività
 		di formazione professionale aperta a tutte le categorie sociali: giovani, disoccupati e lavoratori.<br>
 		E’ una struttura giovane e flessibile, che però già ha maturato una significativa esperienza nella 
 		progettazione e realizzazione di corsi di formazione avvalendosi di collaboratori altamente qualificati,

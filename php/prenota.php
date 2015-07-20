@@ -20,7 +20,7 @@ session_start();
 			      if(IsSet($_SESSION['User']))
 				 {						
 					$Connessione=mysql_connect("localhost","root","davide");
-					$DataBase=mysql_select_DB("Ercf");
+					$DataBase=mysql_select_DB("amm15_musaAlberto");
 					$Q=$_GET['Op'];
 					$app=$_SESSION['User'];
 					$QueryIns="insert into partecipa values('$app','$Q');";

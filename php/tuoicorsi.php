@@ -19,7 +19,7 @@ session_start();
 			      if(IsSet($_SESSION['User']))
 				 {						
 					$Connessione=mysql_connect("localhost","root","davide");
-					$DataBase=mysql_select_DB("Ercf");
+					$DataBase=mysql_select_DB("amm15_musaAlberto");
 					$app=$_SESSION['User'];
 					$Query="SELECT C.Cod,C.Titolo,C.Data,C.Anteprima 
 							FROM Corso as C,Partecipa as P

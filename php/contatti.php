@@ -19,7 +19,7 @@ session_start();
 					<div id="text_info">
 					<center>
 					<p>E.R.C.F. Agenzia Formativa<br>
-					Sede legale: Cagliari via Is Mirrionis 12<br>
+					Sede legale: Cagliari via Cagliari 1<br>
 					Tel. 070 1111111 - Fax 070 1111111 - e-mail: <a href="mailto:info@ercf.it">info@ercf.it</a></p>
 					</center>
 					</div>

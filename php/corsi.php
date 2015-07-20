@@ -16,7 +16,7 @@ session_start();
 				<div id="contenuto">		
 <?php
 						$Connessione=mysql_connect("localhost","root","davide");
-						$DataBase=mysql_select_DB("Ercf");
+						$DataBase=mysql_select_DB("amm15_musaAlberto");
 						$data=(date("y-m-d"));
 						$Q=$_GET['Sede'];
 						$Query="SELECT C.Cod,C.Titolo,C.Data,C.Anteprima 

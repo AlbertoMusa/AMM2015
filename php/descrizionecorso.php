@@ -16,7 +16,7 @@ session_start();
 				<div id="contenuto">		
 <?php
 						$Connessione=mysql_connect("localhost","root","davide");
-						$DataBase=mysql_select_DB("Ercf");
+						$DataBase=mysql_select_DB("amm15_musaAlberto");
 						$Q=$_GET['CodS'];
 						$Query="SELECT C.Titolo,C.Tipo,C.Obiettivi,C.Programma,C.Svolgimento,C.Titoli,C.Iscrizione,C.Destinatari,C.Data,C.Orari,C.Costo
 								FROM Corso as C,Abilita as A
