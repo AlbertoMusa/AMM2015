@@ -23,7 +23,7 @@ session_start();
 						echo"<td id='rdx'><b>Titolo:</b></td><td><Input type='text' maxlength='100' size='70' name='Titolo'></td>";
 						echo"</tr><tr>";
 						echo"<td id='rdx'><b>Sedi:</b></td><td>";
-						$Connessione=mysql_connect("localhost","root","davide");
+						$Connessione=mysql_connect("localhost","musaAlberto","stambecco7280");
 						$DataBase=mysql_select_DB("amm15_musaAlberto");
 						$Query="select ID,Citta from Sede ORDER BY Citta;";
 						$ExQuery=mysql_query($Query);
