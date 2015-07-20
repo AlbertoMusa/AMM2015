@@ -39,7 +39,7 @@ session_start();
 						
 						echo"<tr>";
 						echo "<td id='csx'><b>Sedi:</b></td>";
-						$Query="SELECT S.Citta FROM Sede as S,abilita as A,Corso as C WHERE C.Cod='$Q' AND C.Cod=A.Cod AND A.ID=S.ID;";
+						$Query="SELECT S.Citta FROM Sede as S,Abilita as A,Corso as C WHERE C.Cod='$Q' AND C.Cod=A.Cod AND A.ID=S.ID;";
 						$ExQuery=mysql_query($Query);
 						echo "<td id='cdx'>";
 						if(mysql_num_rows($ExQuery)>0){
