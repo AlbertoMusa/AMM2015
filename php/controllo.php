@@ -8,7 +8,7 @@
 			}
 			 else
 			 {  			
-				 $connessione=mysql_connect("localhost","root","davide");
+				 $Connessione=mysql_connect("localhost","musaAlberto","stambecco7280");
 				 mysql_select_DB("amm15_musaAlberto");
 				 $Query="SELECT Nome, Priorita FROM Utente  WHERE Nome='$user' AND Password='$pass';";
 				 $ExQuery=mysql_query($Query);
