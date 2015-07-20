@@ -18,7 +18,7 @@ session_start();
 				NEWS
 			</div>
 			<?php
-				$Connessione=mysql_connect("localhost","root","davide");
+				$Connessione=mysql_connect("localhost","musaAlberto","stambecco7280");
 				$DataBase=mysql_select_DB("amm15_musaAlberto");
 				$Query="SELECT C.Cod,C.Titolo,C.Data,C.DataF,S.Citta
 						FROM Corso as C,Abilita as A, Sede as S
@@ -46,10 +46,10 @@ session_start();
 					</div>
 					<center><img src="../images/img1.jpg"  width="450" height="296" style='border:4px solid orange;'></center>
 					<div id="text_info">
-					<p>Il mercato del lavoro Ë in continua evoluzione e adattarsi rapidamente al cambiamento Ë diventato fondamentale.
+					<p>Il mercato del lavoro √® in continua evoluzione e adattarsi rapidamente al cambiamento √® diventato fondamentale.
 					Per questo l'Agenzia Formativa E.R.C.F. ti mette a disposizione tutti gli strumenti necessari ad acquisire i requisiti fondamentali
 					per essere veramente competitivo.<br>
-					Contattaci per rimanere aggiornato sulle nostre attivit‡.</p>
+					Contattaci per rimanere aggiornato sulle nostre attivit√†.</p>
 					</div>
 				</div>
 			</div>
