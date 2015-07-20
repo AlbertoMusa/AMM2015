@@ -31,7 +31,7 @@ session_start();
 		<div id="info">
 <?php		
 						echo "<div id='titolo'>Le Sedi</div>";
-						$Connessione=mysql_connect("localhost","root","davide");
+						$Connessione=mysql_connect("localhost","musaAlberto","stambecco7280");
 						$DataBase=mysql_select_DB("amm15_musaAlberto");
 						$Query="SELECT ID, Citta FROM Sede ORDER BY Citta;";
 						$ExQuery=mysql_query($Query);
