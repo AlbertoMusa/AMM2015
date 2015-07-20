@@ -18,7 +18,7 @@ session_start();
 <?php		   
 			      if(IsSet($_SESSION['User']))
 				 {						
-					$Connessione=mysql_connect("localhost","root","davide");
+					$Connessione=mysql_connect("localhost","musaAlberto","stambecco7280");
 					$DataBase=mysql_select_DB("amm15_musaAlberto");
 					$Query="SELECT Cod FROM Corso WHERE Cod='".$_POST['Cod2']."';";
 					$ExQuery=mysql_query($Query);
