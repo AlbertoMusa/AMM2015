@@ -1,5 +1,5 @@
 <?php
-	$Connessione=mysql_connect("localhost","root","davide");
+	$Connessione=mysql_connect("localhost","musaAlberto","stambecco7280");
 	$DataBase=mysql_select_DB("amm15_musaAlberto");
 	$app=$_POST['ID'];
 	$Query="SELECT Citta, ID, Via, Provincia, Telefono FROM Sede WHERE ID=$app;";
